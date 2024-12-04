@@ -11,7 +11,7 @@ sudo systemctl restart mysql
 #Parámetros database:#
 ######################
 #####!!!!!!Importante¡¡¡¡¡¡¡¡¡#####
-#$IP_MAS=rango de IPs de los servidores Web (no poner mascara de red ya que mysql no lo permite)
+#$IP_MAS=rango de IPs de los servidores Web (no poner máscara de red ya que mysql no lo permite)
 #$db_passwd=contraseña_usuario_root_database
 #$DB_USER=es el usuario utilizado para la base de datos Wordpress
 #$DB_PASS=contraseña del usuario para la base de datos Wordpress

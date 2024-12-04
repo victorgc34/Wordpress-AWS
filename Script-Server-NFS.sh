@@ -26,7 +26,7 @@ sudo chown -R nobody:nogroup /var/www/nfs
 #####No ejecutar las siguientes lineas hasta que se haya hecho la instalación del Wordpress####
 ###############################################################################################
 sudo tee -a /var/nfs/wordpress/wp-config.php > /dev/null << 'EOF'
-// Esto define el nombre de dominio para que WordPress lo interprete bien
+// Esto define el nombre de dominio para que WordPress lo interprete de manera correcta
 define('WP_HOME', 'https://wordpressvg.ddns.net');
 define('WP_SITEURL', 'https://wordpressvg.ddns.net');
 

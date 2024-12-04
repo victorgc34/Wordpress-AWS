@@ -12,6 +12,7 @@ sudo a2enmod proxy_balancer
 sudo a2enmod lbmethod_byrequests
 sudo a2enmod ssl
 sudo a2enmod rewrite
+sudo a2enmod headers
 sudo a2dissite 000-default.conf
 
 #######################################
@@ -91,7 +92,7 @@ sudo sed -i 's|SSLCertificateKeyFile .*|SSLCertificateKeyFile /etc/letsencrypt/l
 
 #####
 
-
+sudo systemctl restart apache2
 
 
 

@@ -194,7 +194,7 @@ Una vez revisado y adaptado el script a tu configuración, ya podremos ejecutar 
 
 Por último, tendremos que ejecutar los comandos que mencionamos anteriormente en el servidor NFS para evitar problemas con el CSS de WordPress, ya que el sitio está funcionando a través de un Proxy/Balanceador.
 
-# 5.0 Securización de AWS
+# 5. Securización de AWS
 
 Para cumplir todos los requisitos para este proyecto, tendremos que eliminar cierta configuración que hicimos anteriormente, pero siempre y cuando nos halla funcionado todos los pasos anteriores. Para realizar la siguiente configuración, lo recomendable será ir poco a poco comprobando si las modificaciones que realizamos no perjudican al Wordpress o al SSH.
 
@@ -342,6 +342,6 @@ Estas son las ACLs que he aplicado a las subredes:
 - Regla 1: Permitir MSSQL (puerto 1433) hacia los Servidores Web.
 - Regla 2: Permitir el tráfico de los puertos efímeros (32768 - 60999) hacia cualquier lado.
 
-# 6.0 Conclusión
+# 6. Conclusión
 
 Este proyecto implementa un despliegue de CMS Wordpress en AWS, utilizando una arquitectura de tres capas que asegura alta disponibilidad, escalabilidad y seguridad. Con un enfoque en la configuración estructurada, la securización de redes y la automatización mediante scripts, esta solución ofrece un entorno robusto y eficiente para gestionar aplicaciones web. La infraestructura creada está optimizada para permitir conexiones seguras y un rendimiento confiable, cumpliendo con las mejores prácticas de diseño en la nube.

@@ -146,7 +146,7 @@ ssh -i clave.pem -J usuario_pivote@IP_Piv usuario_interno@servidor-interno
 
 También podemos conectarnos desde Termius, la cual podemos indicar el “Jump Hosts” (El intermediario), permitiendo conectarnos de manera rápida a las terminas de cada instancia.
 
-![imagen.png](Despliegue%20de%20CMS%20Wordpress%20en%20AWS%20con%20Alta%20Dispon%20152b6172827e806fbc31dc6151083c01/imagen.png)
+![imagen.png](img/imagen.png)
 
 # 4. Configuración de los servidores Ubuntu
 
@@ -218,7 +218,7 @@ Ahora, tendremos modificar las **subredes “privadas” en subredes realmente p
 
 Una vez realizado, el mapa de recursos de la VPC nos debe de quedar así: 
 
-![imagen.png](Despliegue%20de%20CMS%20Wordpress%20en%20AWS%20con%20Alta%20Dispon%20152b6172827e806fbc31dc6151083c01/imagen%201.png)
+![imagen.png](img/imagen%201.png)
 
 ## Reglas para los grupos de seguridad
 

@@ -4,25 +4,26 @@ Este proyecto tiene como objetivo desplegar un **CMS Wordpress** en una infraest
 
 # Indice
 
-1. Infraestructura de AWS
-2. Configuración inicial AWS
-    1. Creación de la VPC y las subredes
-    2. Puerta de enlace de internet
-    3. Tablas de enrutamiento
-    4. Obtención de las IP Elásticas
-    5. Grupos de seguridad
-    6. Creación de las instancias
-3. Configuración de SSH en el cliente
-4. Configuración de los servidores Ubuntu
-    1. Servidor “Base de datos”
-    2. Servidor “NFS”
-    3. Servidores “Web”
-    4. Servidor Proxy/Balanceador
-5. Securización de AWS
-    1. Configuración de las redes privadas
-    2. Reglas para los grupos de seguridad
-    3. Creación de ACLs para cada subred
-6. Conclusión
+1. [Infraestructura de AWS](#Infraestructura-de-aws)
+2. [Configuración inicial AWS](#configuración-inicial-aws)
+    1. [Creación de la VPC y las subredes](#creación-de-la-vpc-y-las-subredes)
+    2. [Puerta de enlace de internet](#puerta-de-enlace-de-internet)
+    3. [Tablas de enrutamiento](#tablas-de-enrutamiento)
+    4. [Obtención de las IP Elásticas](#obtención-de-las-ip-elásticas)
+    5. [Grupos de seguridad](#grupos-de-seguridad)
+    6. [Creación de las instancias](#creación-de-las-instancias)
+3. [Configuración de SSH en el cliente](#configuración-de-ssh-en-el-cliente)
+4. [Configuración de los servidores Ubuntu](#configuración-de-los-servidores-ubuntu)
+    1. [Servidor “Base de datos”](#servidor-base-de-datos)
+    2. [Servidor “NFS”](#servidor-nfs)
+    3. [Servidores “Web”](#servidores-web)
+    4. [Servidor Proxy/Balanceador](#servidor-proxybalanceador)
+5. [Securización de AWS](#securización-de-aws)
+    1. [Configuración de las redes privadas](#configuración-de-las-redes-privadas)
+    2. [Reglas para los grupos de seguridad](#reglas-para-los-grupos-de-seguridad)
+    3. [Creación de ACLs para cada subred](#creación-de-acls-para-cada-subred)
+6. [Conclusión](#conclusión)
+
 
 # 1. Infraestructura de AWS
 

@@ -12,7 +12,7 @@ Este proyecto tiene como objetivo desplegar un **CMS Wordpress** en una infraest
     4. [Obtención de las IP Elásticas](#obtención-de-las-ip-elásticas)
     5. [Grupos de seguridad](#grupos-de-seguridad)
     6. [Creación de las instancias](#creación-de-las-instancias)
-3. [Configuración de SSH en el cliente](#3-configuración-de-ssh-en-el-cliente)
+3. [Configuración del SSH en el cliente](#3-configuración-del-ssh-en-el-cliente)
 4. [Configuración de los servidores Ubuntu](#4-configuración-de-los-servidores-ubuntu)
     1. [Servidor “Base de datos”](#servidor-base-de-datos)
     2. [Servidor “NFS”](#servidor-nfs)
@@ -133,7 +133,7 @@ Estas son las instancias que he creado:
 
 Con esta configuración hecha, ya podremos realizar el siguiente paso.
 
-# 3. Configuración de SSH en el cliente
+# 3. Configuración del SSH en el cliente
 
 Para conectarnos con las instancias que tenemos, vamos a utilizar la maquina pivote como un intermediario de la conexión. Este nos proporcionará un acceso seguro a las conexiones SSH de nuestras instancias a través de la red privada.
 

@@ -45,7 +45,7 @@ En este apartado configuraremos de manera **estructurada** los recursos base nec
 
 GS-NFC
 
-### VPC y las subredes
+## VPC y las subredes
 
 Lo primero que tendremos que crear es una VPC, la cual tendrá una dirección de red (192.168.10.0/24). En mi caso se llamará “*proyecto*”
 

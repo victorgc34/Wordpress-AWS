@@ -6,7 +6,7 @@ Este proyecto tiene como objetivo desplegar un **CMS Wordpress** en una infraest
 
 1. [Infraestructura de AWS](#Infraestructura-de-aws)
 2. [Configuración inicial AWS](#configuración-inicial-aws)
-    1. [Creación de la VPC y las subredes](#creación-de-la-vpc-y-las-subredes)
+    1. [VPC y las subredes](#vpc-y-las-subredes)
     2. [Puerta de enlace de internet](#puerta-de-enlace-de-internet)
     3. [Tablas de enrutamiento](#tablas-de-enrutamiento)
     4. [Obtención de las IP Elásticas](#obtención-de-las-ip-elásticas)
